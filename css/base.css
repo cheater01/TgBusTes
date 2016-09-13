@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form, pre, textarea { margin: 0; }
+ol, li, ul { margin: 0; padding: 0; }
+td, th, input { padding: 0; }
+input,select,textarea,button { vertical-align: middle; }
+br { line-height: 0; font-size: 0; }
+li{ list-style-type: none; list-style-position: outside; }
+img { vertical-align: top; border: 0; }
+ul,ol { list-style: none; }
+pre { white-space: pre-wrap; word-wrap: break-word; font-family: courier new; }
+em,i,b { font-weight: normal; font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+td,th,text { word-wrap: break-word; word-break: break-all;  }
+section, article, aside, header, footer, nav, dialog, figure {display:block;}
+
+h1,h2,h3,h4,h5,h6,textarea { font-size: 12px; }
+body { font: 12px/1.5 Tahoma,Helvetica,Arial,"宋体",sans-serif; background: #FFF; text-align: center; color: #333;}
+a { color: #333; text-decoration: none; }
+a:hover { text-decoration:none;}
+
+/*common*/
+.w
+{
+    margin:0 auto;
+    width: 1160px;
+}
+
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+.cl
+{
+    clear: both;
+    _font-size: 1px;
+}
+.cl-ofw
+{
+    overflow: hidden;
+    _zoom:1
+}
